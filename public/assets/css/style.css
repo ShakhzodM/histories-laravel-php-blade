@@ -1,0 +1,105 @@
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+
+input, textarea{
+	width:15%;
+	padding:5px 10px;
+	display: block;
+}
+
+.wrapper{
+	display: block;
+	width:75%;
+	margin: 0 auto;
+	border:1px solid black;
+}
+
+header{
+	height:35px;
+	border-bottom:1px solid black;
+	margin-bottom: 10px;
+}
+
+	nav ul{
+		display: flex;
+		list-style: none;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.siteName{
+		position: absolute;
+		font-size: 30px;
+
+	}
+	.siteName a{
+		color:black;
+		text-decoration: none;
+	}
+	nav ul li a{
+		border:1px solid black;
+		padding:7px 10px;
+		display: inline-block;
+		color:white;
+		background: #2696E8;
+		text-decoration: none;
+	}
+	nav ul li a:hover{
+		color:#2696E8;
+		background: white;
+	}
+	.history{
+		border:1px solid black;
+		margin-bottom: 10px;
+	}
+
+main{
+	padding: 10px;
+}
+
+
+	.pagination{
+		display: flex;
+		list-style: none;
+		justify-content: center;
+	}
+	.pagination li{
+		margin-left: 4px;
+
+	}
+	.pagination a{
+		padding:10px;
+		background: #2696E8;
+		color:white;
+		text-decoration: none;
+		border:1px solid black;
+	}
+	.pagination li.active{
+		border:1px solid black;
+	}
+	.pagination li{
+		padding:10px;
+	}
+	.pagination li.disabled{
+		border:1px solid black;
+	}
+
+	.pagination a:hover{
+		color:#2696E8;
+		background: white;
+	}
+	.messages{
+		margin-bottom: 10px;
+	}
+
+	.status{
+		color:green;
+	}
+
+footer{
+	height:80px;
+	boreder-top:1px solid black;
+}
